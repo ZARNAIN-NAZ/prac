@@ -6,4 +6,8 @@
     "name":"zara",
     "age" : "74",
     "city"  :"paris" 
+},{
+    "name":"ali",
+    "age" : "24",
+    "city"  :"karachi"
 }]
