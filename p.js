@@ -446,19 +446,45 @@
 // t().then((result)=>{
 //     console.log(result)
 // })
- async function test(){
-    console.log("2 :message");
-     await console.log("3 :message");
-console.log("4 :message")
+//  async function test(){
+//     console.log("2 :message");
+//      await console.log("3 :message");
+// console.log("4 :message")
 
- }
- console.log("1:message")
- test();
- console.log("5:message")
+//  }
+//  console.log("1:message")
+//  test();
+//  console.log("5:message")
+//-------------------------------------symbol data type--------------------
+// var id = Symbol("hello zarnain")
+// // var id2 = Symbol("hello zarnain")
 
+// // console.log(id ==id2)
+// console.log(id)
+// alert(id .description)
+// console.log(typeof id)
 
+// let str = "hello zarnain"
+// let str2 = "hello zarnain"
 
+// console.log(str==str2)
 
+var age = Symbol();
+let user ={
+    name :"zarnain",
+    class:"matric",
+    // [age]  :25
+}
+user[age]  =90;
+user["gender "] = "male"
+// console.log(user.class)
+console.log(user)
+// for(let z in user){
+//     console.log(z)
+// }
+// console.log(user[age])
+
+console.log(JSON.stringify(user))
 
 
 
