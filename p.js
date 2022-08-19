@@ -439,10 +439,22 @@
 //     console.log("error"+error)
 // })
 
-//-------------------------------AJAX-------------------------
-//
+//-------------------------------async function-------------------------
+//   let t = async ()=>{
+//     return "hello"
+// }
+// t().then((result)=>{
+//     console.log(result)
+// })
+ async function test(){
+    console.log("2 :message");
+     await console.log("3 :message");
+console.log("4 :message")
 
-
+ }
+ console.log("1:message")
+ test();
+ console.log("5:message")
 
 
 
