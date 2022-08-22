@@ -469,27 +469,70 @@
 
 // console.log(str==str2)
 
-var age = Symbol();
-let user ={
-    name :"zarnain",
-    class:"matric",
-    // [age]  :25
-}
-user[age]  =90;
-user["gender "] = "male"
-// console.log(user.class)
-console.log(user)
-// for(let z in user){
-//     console.log(z)
+// var age = Symbol();
+// let user ={
+//     name :"zarnain",
+//     class:"matric",
+//     // [age]  :25
 // }
-// console.log(user[age])
+// user[age]  =90;
+// user["gender "] = "male"
+// // console.log(user.class)
+// console.log(user)
+// // for(let z in user){
+// //     console.log(z)
+// // }
+// // console.log(user[age])
 
-console.log(JSON.stringify(user))
+// console.log(JSON.stringify(user))
+//----------------------------------------iterator-----------------------
+// function numberterator(ac){
+// var r = 0;
+// return {
+//     next(){
+//         if(r < ac.length){
+//             return {
+//                 value:ac[r++],
+//                 done:false
+//             }
+//         }else{
+//             return {
+                
+//                 done:false
+//             }
+//         }
+      
+//     }
+// }
+// }
 
 
+// var a =[100,200,300]
+// let zz = "zarnain naz"
+// console.log(  typeof a[Symbol.iterator])
 
+ 
+// let ab =e.next()
+// while(!ab.done){
+//     console.log(ab.value);
+//     ab =e.next()
 
+// for(let c of zz){
+//     console.log(c)
+// }
 
-
-
+// }
+// console.log(e .next())
+// console.log(e .next())
+// console.log(e .next())
+// console.log(e.next().value)
+// e.next()
+// console.log(e.next().value)
+// console.log(e.next().value)
+// console.log(e.next())
+// console.log(e.next())
+// console.log(e.next())
+// console.log(e.next())
+// let num =[34,1231,343,345]
+//----------------------------------------generator---------------------------
 
