@@ -535,4 +535,48 @@
 // console.log(e.next())
 // let num =[34,1231,343,345]
 //----------------------------------------generator---------------------------
+function *generate(){
+    // console.log("1st msg");
+    // let m = 400;
+    // while(true){
+    //     yield(m++)
+    // }
+    // let res = [yield,yield,yield,yield]
+    // console.log(`res:${res[1]}`)
+    yield "php";
+    yield"javascript"
+    yield"python"
+    // yiled*["node", "js"]
+}
+    // yield 'yield no 1'
+    // console.log("2nd msg")
+    // yield 'yield no 5'
+    // yield"zarnain here"
 
+
+ var g = generate();
+// g.next()
+console.log(g.return("ending now").value)
+// console.log([...g])
+
+// g.next(7845)
+// g.next(785)
+
+//  console.log(g.next().value)
+
+//  console.log(g.next().value)
+
+//  console.log(g.next().value)
+
+//  for(let v of g){
+//     if(v>405)break;
+//     console.log(v)
+
+    
+//     console.log(v);
+// }
+ 
+//  console.log(g.next().value);
+//  g.next()
+
+    // console.log(g.next()) , "js"
