@@ -581,11 +581,58 @@
 
     // console.log(g.next()) , "js"
 // -------------------------------------Strict mode ---------------
-"use strict"
-//  var  a =90;
-// console.log(a)
-function test(a ,b ,bc){
- console.log(a+b+bc)
+// "use strict"
+// //  var  a =90;
+// // console.log(a)
+// function test(a ,b ,bc){
+//  console.log(a+b+bc)
+// }
+// test(90,89,88)
+// -----------------ERROR HANDLING--------------------------
+
+    // setTimeout(function(){
+//         try{
+//             djshdksh
+//         }
+//             catch(error){
+//                 // console.log("error occured!")
+//                 console.log(error.name)
+//                 console.log(error.msg)
+//                 console.log(error.ss)
+// if(error instanceof ReferenceError){
+// console.log("reference error")
+// }else if(error instanceof TypeError){
+//      console.log("type error")
+// }else{
+//     console.log("unknown error")
+// }
+//                 }
+    // } , 1000)
+// console.log("hello")
+// jskjdakj;
+// console.log("hello ending here")
+try{
+let json = 
+{
+    "name":"zarnain",
+    "age" : 17,
+};
+var user = JSON.parse(json);
+if(!user.name){
+    throw new Error("incomplete data: no name")
 }
-test(90,89,88)
+console.log(user.age)
+
+console.log(user.name)
+}
+
+catch(error){
+console.log(error)
+}
+finally{
+    console.log("run anyway")
+
+}
+
+
 
